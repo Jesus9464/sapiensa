@@ -1,0 +1,268 @@
+header{
+    background: #96dafa;
+    color: black;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: 900;
+
+}
+
+header ol {
+    display: flex;
+    font-family: "chilanka", sans-serif;
+    font-weight: bolder;
+
+}
+
+header a {
+    margin-left: 20px;
+    text-decoration: none;
+    padding: 0 110px;
+    height: inherit;
+    font-weight: inherit;
+    color: inherit;
+    
+}
+
+ol,
+ul {
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+
+}
+
+body{
+    font-family: "chilanka", sans-serif;
+}
+
+.hero {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    width: 400;
+    padding: 20px 0;
+}
+
+div{
+    /* border: 1px solid black; */
+}
+
+.images_hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images_hero_creatvidad{
+    margin: 90px;
+}
+
+
+.description{
+    background: #96dafa;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.experience{
+    border: 1px solid black;
+    background: white;
+    padding: inherit;
+    margin: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+
+}
+
+.tittle_experience{
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.tittle_only{
+    display: flex;
+    justify-content: center;
+    background: #96dafa;
+    margin: 0;
+}
+h2 {
+    border: 1px solid black;
+    text-transform: uppercase;
+    background: white;
+    font-weight: bold;
+    margin: 14px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+div {
+    /* border: 1px solid black */
+}
+
+.evento{
+    display: flex;
+    flex-wrap: wrap;
+    background: #96dafa;
+    margin-bottom: 0;
+    padding-bottom: 40px;
+}
+
+.event-description{
+    width: 1000p;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+    flex-wrap: wrap;
+    
+}
+
+.event-article{
+    margin: 50px;
+    width: 480px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #96dafa;
+    padding: 30px;
+    margin-bottom: -30px;
+
+}
+
+.image-event{
+    /* border: 1px solid green; */
+    margin: 0;
+    padding: 0;
+}  
+
+.image-event-figure{
+    width: 400x;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.event-details{
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 20px 40px;
+    margin-top: -84px;
+    position: relative;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.event-text{
+    text-align: left;
+}
+
+
+.contact{
+    background: #96dafa;
+    color: black;
+    font-weight: bold;
+    margin: 0;
+    padding: 20px 60px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-link{
+    /* background: black; */
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-size: 50px 50px;
+}
+
+.social-link.twitter{
+    background-image: url("./images/twitter.svg");
+}
+
+.social-link.facebook{
+    background-image: url("./images/facebook.svg");
+}
+
+.social-link.instagram{
+    background-image: url("./images/instagram.svg");
+    paga
+}
+
+.form-email input{
+    border-color: black;
+    padding: 10px 20px 10px 25px;
+    border-style: solid;
+    border-radius: 5px;
+    background-image: url("./images/envelope.svg");
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+
+
+.form-email button{
+    border: black;
+    display: block;
+    margin-top: 10px;
+    background: white;
+    padding: 0px;
+    border-style: solid;
+    border-radius: 5px;
+    width: 100px;
+    margin: 6px 57px;
+}
+
+.footer{
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer img{
+    vertical-align: middle;
+}
+
+.footer a {
+    color: white;
+}
+
+.container{
+    width: 1214px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
+
+.animate-images{
+    animation: zoomInDown;
+    animation-duration: 1s;
+}
+
+
+.navegation{
+    animation: bounce;
+    animation-duration: 2s;
+}
